@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		
+		<link rel="stylesheet" href="options.css"/>
+		
+		<meta charset="utf-8" http-equiv="Content-Security-Policy" content="script-src 'self' * 'unsafe-eval'; object-src 'self'; img-src 'self';">
+		
+		<link rel="stylesheet" href="chrome://browser/content/extension.css">
+		<link rel="stylesheet" href="../styles/tabtap.css">
+		<link rel="stylesheet" href="../deps/json/json-formatter.min.css">
+		
+		<script src="../deps/jquery.min.js"></script>
+		<script src="../deps/angular.min.js"></script>
+		<script src="../deps/angular-ui-router.min.js"></script>
+		<script src="../partials/partials.js"></script>
+		
+		<script src="../../utils/tabtap-utils.js"></script>
+		<!-- <script src="../../utils/deps/async.min.js"></script>
+		<script src="../../utils/deps/underscore-min.js"></script> -->
+		<script src="../../utils/deps/EventEmitter/EventEmitter.min.js"></script>
+		
+	</head>
+	
+	<body ng-controller="optionsController" ng-cloak>
+		
+		<div class="panel-section">
+			
+			<div class="panel-section-header" style="width: 100%;">
+				
+				<div class="text-section-header browser-style" style="font-weight: 475;font-size: 1.67em;">TabTap Settings</div>
+				<div ui-view="proxy-settings"></div>
+				
+			</div>
+			
+		</div>
+		
+		<!-- <div ui-view="debug"></div> -->
+		
+		<script src="../deps/json/json-formatter.js"></script>
+		<script src="options.js"></script>
+		
+	</body>
+	
+</html>

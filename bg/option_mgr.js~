@@ -1,0 +1,20 @@
+function OptionMgr (bg) {
+
+	let self = this;
+
+	this.storage = global_storage;
+	
+	this.proxys = {'example': {'host': 'localhost', port: 9050, type: 'socks'}}
+
+	this.storage.getOptions(
+		
+		options => {
+			
+			self.proxys = options
+			
+			self.bg.app_events.emit('options-ready');
+		}
+	);
+
+
+}

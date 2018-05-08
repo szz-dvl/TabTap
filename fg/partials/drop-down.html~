@@ -1,0 +1,7 @@
+<div class="panel-section panel-section-header" style="display: inline-block; width: 100%;"> 
+	<div class="text-section-header-mod"> Rules
+		<button ng-class="shown ? 'ddbutton-shown' : 'ddbutton-hidden'" ng-click="toggleDD($event)" style="border: 0; background: transparent;">
+			<img style="vertical-align: sub;" src="../icons/right-arrow-64.png" width="20px" height="20px" alt="submit" />
+		</button>
+	</div>
+</div>

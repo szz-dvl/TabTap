@@ -1,0 +1,3 @@
+[submodule "utils/deps/EventEmitter"]
+	path = utils/deps/EventEmitter
+	url = git://github.com/Olical/EventEmitter.git

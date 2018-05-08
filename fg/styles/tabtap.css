@@ -1,0 +1,42 @@
+.ddbutton-shown {
+
+	/* None of those seems to be correctly interpreted by the browser ...*/
+	
+	/* outline-style: solid; */
+	/* outline-color: white; */
+	/* outline-width: 1px; */
+	/* outline: 1px hidden white; */
+	
+	-moz-transition: all 0.5s ease;
+	vertical-align: text-bottom;
+}
+
+.ddbutton-shown:hover {
+	
+	-moz-transform: rotate(-90deg);
+	
+}
+
+.ddbutton-hidden {
+	
+	-moz-transition: all 0.5s ease;
+	vertical-align: text-bottom;
+}
+
+.ddbutton-hidden:hover {
+
+	-moz-transform: rotate(90deg);
+
+}
+
+.pressed {
+	background-color: #ebebeb;
+}
+
+.text-section-header-mod {
+	
+	align-self: center;
+	font-size: 1.2em;
+	font-weight: lighter;
+	padding: 15px;
+}
